@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Bem-Vindo {{ nome }}</h1>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{url_for('static', filename='marguerita.jpg')}}"class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static', filename='frango.jpg')}}" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static', filename='calabresa.jpg')}}" class="d-block w-100" alt="">
+    </div>
+     <div class="carousel-item">
+      <img src="{{url_for('static', filename='hamburguer.jpg')}}" class="d-block w-100" alt="">
+    </div>
+     <div class="carousel-item">
+      <img src="{{url_for('static', filename='c:\Users\a95706445\Desktop\atividade (20-05-2026)\static\Batata-Frita-com-Paprica.webp.jpg')}}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+</body>
+</html>
