@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+body.claro {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+
+body.escuro {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input {
+  margin-left: 8px;
+  padding: 4px;
+}
+
+button {
+  width: fit-content;
+  padding: 6px 16px;
+  cursor: pointer;
+}
