@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+    Carrinho
+{% endblock %}
+
+{% block conteudo %}
+
+<h1>🛒 Carrinho</h1>
+
+<div class="grid-2col">
+
+    <div class="card">
+
+        <h2>Produtos</h2>
+
+        {% for produto in produtos %}
+
+            <div class="produto-item">
+
+                <div>
+
+                    <strong>
+                        {{ produto.nome }}
+                    </strong>
+
+                    <br>
+
+                    R$ {{ "%.2f"|format(produto.preco) }}
+
+                </div>
+
+                <a href="{{ url_for('adicionar_ao_carrinho',
+                                    produto_id=produto.id) }}"
+                   class="btn btn-blue">
+
+                    Adicionar
+
+                </a>
+
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Seu carrinho</h2>
+
+        {% if carrinho %}
+
+            {% for item in carrinho %}
+
+                <div class="produto-item">
+
+                    <div>
+
+                        <strong>
+                            {{ item.nome }}
+                        </strong>
+
+                        <br>
+
+                        R$
+                        {{ "%.2f"|format(item.preco) }}
+
+                        x
+
+                        {{ item.qtd }}
+
+                    </div>
+
+                    <a href="{{ url_for('remover_do_carrinho',
+                                        produto_id=item.id) }}"
+                       class="btn btn-red">
+
+                        Remover
+
+                    </a>
+
+                </div>
+
+            {% endfor %}
+
+            <hr>
+
+            <div class="total">
+
+                <strong>
+                    Total:
+                    R$ {{ "%.2f"|format(total) }}
+                </strong>
+
+            </div>
+
+            <a href="{{ url_for('limpar_carrinho') }}"
+               class="btn btn-amber">
+
+                Esvaziar carrinho
+
+            </a>
+
+        {% else %}
+
+            <p>Nenhum item no carrinho.</p>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+{% endblock %}
