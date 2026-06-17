@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block titulo %}Sistema Flask{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #f4f3fb;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #e8e6f8;
+            border-radius: 16px;
+            width: 100%;
+            max-width: 420px;
+            overflow: hidden;
+            box-shadow: 0 2px 24px rgba(91,79,207,0.07);
+        }
+
+        .card-header {
+            background: #5B4FCF;
+            padding: 18px 24px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-header-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.35);
+        }
+
+        .card-header-url {
+            font-size: 13px;
+            color: rgba(255,255,255,0.8);
+            margin-left: 4px;
+        }
+
+        .card-body { padding: 32px 28px; }
+
+        .hero-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: #EAE8FC;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+
+        .hero-icon i { font-size: 24px; color: #5B4FCF; }
+
+        h1 { font-size: 22px; font-weight: 600; color: #1a1642; margin-bottom: 6px; }
+
+        .subtitle {
+            font-size: 14px;
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .info-box {
+            background: #EEEDFE;
+            border: 1px solid #AFA9EC;
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-size: 13px;
+            color: #3C3489;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-box i { font-size: 16px; flex-shrink: 0; }
+
+        .alert-erro {
+            background: #FCEBEB;
+            border: 1px solid #F09595;
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-size: 13px;
+            color: #791F1F;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .alert-erro i { font-size: 16px; flex-shrink: 0; }
+
+        .field-group { margin-bottom: 14px; }
+
+        label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            color: #4b5563;
+            margin-bottom: 6px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #1a1642;
+            background: #fafaf9;
+            transition: border-color 0.15s, box-shadow 0.15s;
+            outline: none;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #5B4FCF;
+            box-shadow: 0 0 0 3px rgba(91,79,207,0.12);
+            background: #fff;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 8px;
+            transition: opacity 0.15s;
+        }
+
+        .btn:hover { opacity: 0.88; }
+
+        .btn-primary { background: #5B4FCF; color: #fff; }
+
+        .btn-danger {
+            background: transparent;
+            border: 1px solid #D85A30;
+            color: #D85A30;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #f0eef8;
+            margin: 22px 0;
+        }
+
+        .link-muted {
+            font-size: 13px;
+            color: #9ca3af;
+            text-align: center;
+        }
+
+        .link-muted a { color: #5B4FCF; text-decoration: none; font-weight: 600; }
+        .link-muted a:hover { text-decoration: underline; }
+
+        .badge-user {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #5B4FCF;
+            color: #fff;
+            border-radius: 20px;
+            padding: 5px 16px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 18px;
+        }
+
+        .badge-user i { font-size: 15px; }
+
+        .success-box {
+            background: #EAF3DE;
+            border: 1px solid #97C459;
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-size: 13px;
+            color: #27500A;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .success-box i { font-size: 16px; flex-shrink: 0; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="card-header-dot"></div>
+            <div class="card-header-dot"></div>
+            <div class="card-header-dot"></div>
+            <span class="card-header-url">{% block url %}localhost:5000{% endblock %}</span>
+        </div>
+        <div class="card-body">
+            {% block conteudo %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>

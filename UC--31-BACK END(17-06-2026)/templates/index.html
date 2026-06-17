@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block titulo %}Bem-vindo{% endblock %}
+{% block url %}localhost:5000/{% endblock %}
+
+{% block conteudo %}
+    <div class="hero-icon"><i class="ti ti-home"></i></div>
+    <h1>Bem-vindo!</h1>
+    <p class="subtitle">Sistema de autenticação desenvolvido com <strong>Flask</strong> e <strong>Sessions</strong>.</p>
+
+    <div class="info-box">
+        <i class="ti ti-info-circle"></i>
+        Faça login para acessar a área restrita do sistema.
+    </div>
+
+    <a href="{{ url_for('login') }}" class="btn btn-primary">Ir para o Login</a>
+{% endblock %}

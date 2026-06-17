@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block titulo %}Dashboard{% endblock %}
+{% block url %}localhost:5000/dashboard{% endblock %}
+
+{% block conteudo %}
+    <div class="hero-icon"><i class="ti ti-shield-check"></i></div>
+    <h1>Área Restrita</h1>
+    <p class="subtitle" style="margin-bottom:12px;">Você está autenticado como:</p>
+
+    <span class="badge-user"><i class="ti ti-user"></i>{{ usuario }}</span>
+
+    <div class="success-box">
+        <i class="ti ti-circle-check"></i>
+        Acesso autorizado! Esta página só pode ser visualizada por usuários autenticados.
+    </div>
+
+    <a href="{{ url_for('logout') }}" class="btn btn-danger">Sair (Logout)</a>
+{% endblock %}
