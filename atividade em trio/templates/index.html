@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <h1>📋 Lista de Tarefas</h1>
+      <p>As tarefas ficam salvas enquanto a sessão estiver ativa.</p>
+    </div>
+
+    <div class="card-body">
+      <form action="/adicionar" method="POST" class="form-row">
+        <input type="text" name="tarefa" placeholder="Nova tarefa..." required autofocus>
+        <button type="submit" class="btn-add">+</button>
+      </form>
+
+      {% if tarefas %}
+        <ul class="task-list">
+          {% for tarefa in tarefas %}
+            <li class="task-item {% if tarefa.feita %}feita{% endif %}">
+              <a href="/concluir/{{ loop.index0 }}" class="btn-check">
+                {% if tarefa.feita %}✓{% endif %}
+              </a>
+              <span class="task-text">{{ tarefa.texto }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <div class="empty">
+          <span>✨</span>
+          Nenhuma tarefa ainda. Adicione uma acima!
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="card-footer">
+      <span class="count">
+        {% set feitas = tarefas | selectattr('feita') | list | length %}
+        {{ feitas }}/{{ tarefas | length }} concluídas
+      </span>
+      <a href="/limpar" class="btn-limpar">🗑 Limpar tudo</a>
+    </div>
+  </div>
+</body>
+</html>
