@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Livros</title>
+</head>
+<body>
+    <h1>Cadastrar Livro</h1>
+
+    {% if erro %}
+        <p style="color: red;">{{ erro }}</p>
+    {% endif %}
+
+    <form method="POST">
+        <label>Título:</label><br>
+        <input type="text" name="titulo"><br><br>
+
+        <label>Autor:</label><br>
+        <input type="text" name="autor"><br><br>
+
+        <label>Ano de publicação:</label><br>
+        <input type="text" name="ano"><br><br>
+
+        <label>Categoria:</label><br>
+        <input type="text" name="categoria"><br><br>
+
+        <label>Quantidade de exemplares:</label><br>
+        <input type="text" name="quantidade"><br><br>
+
+        <button type="submit">Cadastrar Livro</button>
+    </form>
+
+    <p><a href="{{ url_for('listar_livros') }}">Ver livros cadastrados</a></p>
+    <p><a href="{{ url_for('buscar') }}">Buscar livro</a></p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Livro</title>
+</head>
+<body>
+    <h1>Editar Livro</h1>
+
+    {% if erro %}
+        <p style="color: red;">{{ erro }}</p>
+    {% endif %}
+
+    <form method="POST">
+        <label>Título:</label><br>
+        <input type="text" name="titulo" value="{{ livro.titulo }}"><br><br>
+
+        <label>Autor:</label><br>
+        <input type="text" name="autor" value="{{ livro.autor }}"><br><br>
+
+        <label>Ano de publicação:</label><br>
+        <input type="text" name="ano" value="{{ livro.ano }}"><br><br>
+
+        <label>Categoria:</label><br>
+        <input type="text" name="categoria" value="{{ livro.categoria }}"><br><br>
+
+        <label>Quantidade de exemplares:</label><br>
+        <input type="text" name="quantidade" value="{{ livro.quantidade }}"><br><br>
+
+        <button type="submit">Salvar</button>
+    </form>
+
+    <p><a href="{{ url_for('listar_livros') }}">Cancelar</a></p>
+</body>
+</html>
