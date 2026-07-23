@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="cantinho">
+    <h1>Meu Cantinho</h1>
+    <p>Olá, {{ nome }}! Este é o seu cantinho secreto.</p>
+
+    <ul class="info-pessoal">
+        <li><strong>Cor favorita:</strong> {{ cor }}</li>
+        <li><strong>Linguagem favorita:</strong> {{ linguagem }}</li>
+        <li><strong>Frase:</strong> {{ frase }}</li>
+    </ul>
+
+    <p>Você visitou esse cantinho {{ visitas }} vez(es) hoje.</p>
+
+    <a href="{{ url_for('painel') }}">← Voltar ao painel</a>
+</div>
+{% endblock %}
