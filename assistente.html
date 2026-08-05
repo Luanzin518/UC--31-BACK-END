@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<div class="container pb-5">
+  <h1 class="h3">Assistente de redação com <span class="brilho">IA</span></h1>
+  <p class="texto-suave col-lg-8">
+    Uma IA especializada na matriz de correção do ENEM. Ela escreve redações completas de forma autônoma,
+    corrige o seu texto competência por competência, sugere filmes do catálogo como repertório e indica
+    videoaulas curtas ou longas. Você pode digitar, <strong>falar por voz</strong> ou <strong>tirar uma foto</strong>
+    da redação escrita à mão.
+  </p>
+
+  <div class="row g-4 mt-1">
+    <div class="col-lg-7">
+      <section class="painel p-4" aria-labelledby="titulo-chat">
+        <h2 class="h6 brilho" id="titulo-chat">Converse com a IA</h2>
+        <p class="texto-suave small">O mesmo assistente também fica disponível no canto inferior esquerdo de qualquer página — basta passar o mouse.</p>
+        <button class="btn btn-dourado" type="button" data-abrir-ia>Abrir o assistente agora</button>
+      </section>
+
+      <section class="painel p-4 mt-4" aria-labelledby="titulo-perguntas">
+        <h2 class="h6 brilho" id="titulo-perguntas">Perguntas que você pode fazer</h2>
+        <ul class="list-unstyled d-flex flex-wrap gap-2 mb-0">
+          {% for pergunta in sugestoes %}
+            <li><button class="ia-chip" type="button" data-pergunta="{{ pergunta }}">{{ pergunta }}</button></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+
+    <div class="col-lg-5">
+      <section class="painel p-4" aria-labelledby="titulo-recursos">
+        <h2 class="h6 brilho" id="titulo-recursos">O que a IA faz</h2>
+        <ul class="texto-suave small mb-0">
+          <li><strong>Redação autônoma:</strong> gera os 4 parágrafos completos sobre qualquer tema, já com repertório de cinema.</li>
+          <li><strong>Correção:</strong> nota estimada de 0 a 1000 nas 5 competências, com lista de melhorias.</li>
+          <li><strong>Repertório:</strong> indica filmes do catálogo por tema com citação pronta.</li>
+          <li><strong>Videoaulas:</strong> um vídeo curto (resumo) e uma aula longa para cada dúvida.</li>
+          <li><strong>Voz e câmera:</strong> ditado por microfone e foto da folha — sempre pedindo permissão antes.</li>
+        </ul>
+      </section>
+
+      <section class="painel p-4 mt-4" aria-labelledby="titulo-privacidade">
+        <h2 class="h6 brilho" id="titulo-privacidade">Privacidade</h2>
+        <p class="texto-suave small mb-0">
+          O microfone e a câmera só são ligados depois que você autoriza no próprio navegador, e podem ser
+          desligados a qualquer momento. Nenhuma foto ou áudio é enviado para fora do seu computador.
+        </p>
+      </section>
+    </div>
+  </div>
+</div>
+{% endblock %}
