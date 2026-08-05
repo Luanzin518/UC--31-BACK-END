@@ -1,0 +1,938 @@
+[
+  {
+    "id": "que-horas-ela-volta",
+    "titulo": "Que Horas Ela Volta?",
+    "ano": 2015,
+    "diretor": "Anna Muylaert",
+    "imdb": 7.7,
+    "temas": [
+      "Desigualdade social",
+      "Trabalho",
+      "Educação"
+    ],
+    "sinopse": "Val é empregada doméstica e vive na casa dos patrões até a chegada da filha Jéssica, que recusa os lugares invisíveis reservados a elas.",
+    "comoUsar": "Mostra como hierarquias sociais são naturalizadas no cotidiano brasileiro. Serve a temas de desigualdade, trabalho e mobilidade via educação.",
+    "citacao": "Como retrata Que Horas Ela Volta? (2015), as desigualdades brasileiras se sustentam em regras não escritas que definem quem pode ocupar cada espaço.",
+    "parte": "introducao",
+    "cor": "from-amber-500/30 to-rose-700/40",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/7/78/Que_horas_ela_volta_ver3_xlg.jpg"
+  },
+  {
+    "id": "cidade-de-deus",
+    "titulo": "Cidade de Deus",
+    "ano": 2002,
+    "diretor": "Fernando Meirelles",
+    "imdb": 8.6,
+    "temas": [
+      "Violência urbana",
+      "Segurança pública",
+      "Periferia"
+    ],
+    "sinopse": "A trajetória de jovens em uma favela carioca entre os anos 1960 e 1980, marcada pela expansão do tráfico e pela ausência do Estado.",
+    "comoUsar": "Use para abandono estatal, ciclos de violência e criminalização da pobreza, combinando com o Atlas da Violência.",
+    "citacao": "Cidade de Deus (2002) evidencia que, onde o Estado só chega pela força policial, a violência vira a única via de reconhecimento social.",
+    "parte": "desenvolvimento",
+    "cor": "from-orange-600/40 to-red-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/1/10/CidadedeDeus.jpg"
+  },
+  {
+    "id": "estrelas-alem-do-tempo",
+    "titulo": "Estrelas Além do Tempo",
+    "ano": 2016,
+    "diretor": "Theodore Melfi",
+    "imdb": 7.8,
+    "temas": [
+      "Racismo",
+      "Mulheres na ciência",
+      "Meritocracia"
+    ],
+    "sinopse": "Três cientistas negras enfrentam a segregação racial na NASA dos anos 1960 enquanto viabilizam a corrida espacial americana.",
+    "comoUsar": "Ótimo para representatividade, ciência e trabalho feminino: talento sem oportunidade não basta.",
+    "citacao": "Estrelas Além do Tempo (2016) escancara que barreiras institucionais, e não a falta de mérito, afastaram mulheres negras da ciência.",
+    "parte": "desenvolvimento",
+    "cor": "from-sky-500/30 to-indigo-800/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/4/4b/Hidden_Figures.jpg"
+  },
+  {
+    "id": "o-dilema-das-redes",
+    "titulo": "O Dilema das Redes",
+    "ano": 2020,
+    "diretor": "Jeff Orlowski",
+    "imdb": 7.6,
+    "temas": [
+      "Tecnologia",
+      "Desinformação",
+      "Saúde mental"
+    ],
+    "sinopse": "Ex-executivos do Vale do Silício explicam como algoritmos são desenhados para capturar atenção e moldar comportamento.",
+    "comoUsar": "Repertório certeiro para internet, fake news, privacidade e saúde mental de adolescentes.",
+    "citacao": "O Dilema das Redes (2020) alerta que, quando a atenção vira mercadoria, o usuário deixa de ser cliente e passa a ser produto.",
+    "parte": "desenvolvimento",
+    "cor": "from-cyan-500/30 to-slate-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/en/2/27/Social_dilemma_xlg.jpg"
+  },
+  {
+    "id": "central-do-brasil",
+    "titulo": "Central do Brasil",
+    "ano": 1998,
+    "diretor": "Walter Salles",
+    "imdb": 8,
+    "temas": [
+      "Analfabetismo",
+      "Migração",
+      "Educação"
+    ],
+    "sinopse": "Dora escreve cartas para analfabetos na estação Central do Brasil e cruza o país com um menino em busca do pai.",
+    "comoUsar": "Ideal para educação de adultos, migração interna e invisibilidade social.",
+    "citacao": "Em Central do Brasil (1998), o analfabetismo aparece como mudez social: quem não escreve depende sempre da voz de outro.",
+    "parte": "introducao",
+    "cor": "from-yellow-600/30 to-emerald-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/2/29/Central_do_Brasil_poster.jpg"
+  },
+  {
+    "id": "tempos-modernos",
+    "titulo": "Tempos Modernos",
+    "ano": 1936,
+    "diretor": "Charles Chaplin",
+    "imdb": 8.5,
+    "temas": [
+      "Trabalho",
+      "Automação",
+      "Industrialização"
+    ],
+    "sinopse": "Um operário é engolido pela linha de produção e pela lógica de vigilância do trabalho industrial.",
+    "comoUsar": "Clássico para trabalho, automação, inteligência artificial e desemprego tecnológico.",
+    "citacao": "Tempos Modernos (1936) antecipa o risco de uma sociedade em que a técnica avança mais rápido que a proteção ao trabalhador.",
+    "parte": "conclusao",
+    "cor": "from-zinc-400/30 to-zinc-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Modern_Times_poster.jpg/500px-Modern_Times_poster.jpg"
+  },
+  {
+    "id": "a-onda",
+    "titulo": "A Onda",
+    "ano": 2008,
+    "diretor": "Dennis Gansel",
+    "imdb": 7.6,
+    "temas": [
+      "Autoritarismo",
+      "Democracia",
+      "Educação"
+    ],
+    "sinopse": "Um experimento escolar sobre autocracia sai do controle e revela como um grupo comum adere ao pensamento coletivo.",
+    "comoUsar": "Forte para democracia, intolerância, extremismo e comportamento de massa.",
+    "citacao": "A Onda (2008) mostra que o autoritarismo não nasce pronto: instala-se pela adesão silenciosa da maioria.",
+    "parte": "desenvolvimento",
+    "cor": "from-red-600/30 to-neutral-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/2/21/Die_Welle_%28A_Onda%29.jpg"
+  },
+  {
+    "id": "wall-e",
+    "titulo": "WALL·E",
+    "ano": 2008,
+    "diretor": "Andrew Stanton",
+    "imdb": 8.4,
+    "temas": [
+      "Meio ambiente",
+      "Consumo",
+      "Tecnologia"
+    ],
+    "sinopse": "Em uma Terra soterrada por lixo, um robô segue compactando resíduos enquanto a humanidade vive alienada no espaço.",
+    "comoUsar": "Sustentabilidade, consumo excessivo, resíduos sólidos e sedentarismo.",
+    "citacao": "WALL·E (2008) projeta o desfecho de um consumo sem limites: um planeta transformado em depósito.",
+    "parte": "conclusao",
+    "cor": "from-amber-400/30 to-teal-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/3/30/WALL-E.jpg"
+  },
+  {
+    "id": "coringa",
+    "titulo": "Coringa",
+    "ano": 2019,
+    "diretor": "Todd Phillips",
+    "imdb": 8.3,
+    "temas": [
+      "Saúde mental",
+      "Exclusão",
+      "Políticas públicas"
+    ],
+    "sinopse": "Arthur Fleck, sem acesso a tratamento psiquiátrico e humilhado socialmente, desliza para a violência.",
+    "comoUsar": "Saúde mental, desamparo estatal e estigma; combine com dados da OMS.",
+    "citacao": "Coringa (2019) evidencia o custo social de negligenciar a saúde mental: o sofrimento privado vira colapso coletivo.",
+    "parte": "desenvolvimento",
+    "cor": "from-violet-600/30 to-emerald-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/6/63/Joker_%282019%29.jpg"
+  },
+  {
+    "id": "historias-cruzadas",
+    "titulo": "Histórias Cruzadas",
+    "ano": 2011,
+    "diretor": "Tate Taylor",
+    "imdb": 8.1,
+    "temas": [
+      "Racismo",
+      "Trabalho",
+      "Direitos civis"
+    ],
+    "sinopse": "Empregadas negras no Mississippi segregado dos anos 1960 contam suas histórias e desafiam a ordem racial local.",
+    "comoUsar": "Racismo estrutural, trabalho doméstico e narrativa como resistência.",
+    "citacao": "Histórias Cruzadas (2011) mostra que dar nome à injustiça é o primeiro passo para desmontá-la.",
+    "parte": "conclusao",
+    "cor": "from-rose-400/30 to-amber-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/b/b5/Help_poster.jpg"
+  },
+  {
+    "id": "ilha-das-flores",
+    "titulo": "Ilha das Flores",
+    "ano": 1989,
+    "diretor": "Jorge Furtado",
+    "imdb": 8.4,
+    "temas": [
+      "Desigualdade social",
+      "Fome",
+      "Consumo"
+    ],
+    "sinopse": "Curta-metragem que segue o trajeto de um tomate até um lixão, expondo a hierarquia entre pessoas, porcos e dinheiro.",
+    "comoUsar": "Um dos repertórios mais eficientes para fome, desigualdade e descarte de alimentos.",
+    "citacao": "Ilha das Flores (1989) revela uma sociedade em que o acesso à comida é definido pelo dinheiro, e não pela humanidade.",
+    "parte": "introducao",
+    "cor": "from-lime-500/30 to-stone-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/5/56/Ilha_das_flores_intro.png"
+  },
+  {
+    "id": "bacurau",
+    "titulo": "Bacurau",
+    "ano": 2019,
+    "diretor": "Kleber Mendonça Filho",
+    "imdb": 7.4,
+    "temas": [
+      "Política",
+      "Sertão",
+      "Resistência"
+    ],
+    "sinopse": "Um povoado do sertão desaparece do mapa e passa a ser caçado por estrangeiros, enquanto a comunidade se organiza.",
+    "comoUsar": "Apagamento de comunidades, coronelismo, água e resistência coletiva.",
+    "citacao": "Bacurau (2019) alerta que comunidades apagadas dos mapas oficiais são as primeiras a perder direitos.",
+    "parte": "desenvolvimento",
+    "cor": "from-red-500/30 to-yellow-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/6/67/Bacurau_%28filme%29.jpeg"
+  },
+  {
+    "id": "marighella",
+    "titulo": "Marighella",
+    "ano": 2021,
+    "diretor": "Wagner Moura",
+    "imdb": 6.5,
+    "temas": [
+      "Ditadura",
+      "Democracia",
+      "Memória"
+    ],
+    "sinopse": "A trajetória de Carlos Marighella na resistência armada à ditadura militar brasileira.",
+    "comoUsar": "Memória histórica, autoritarismo e importância das instituições democráticas.",
+    "citacao": "Marighella (2021) reforça que a memória da ditadura é a principal vacina contra sua repetição.",
+    "parte": "conclusao",
+    "cor": "from-red-700/40 to-zinc-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/en/c/ca/Marighella_poster.jpg"
+  },
+  {
+    "id": "olga",
+    "titulo": "Olga",
+    "ano": 2004,
+    "diretor": "Jayme Monjardim",
+    "imdb": 7.2,
+    "temas": [
+      "Direitos humanos",
+      "Ditadura",
+      "Mulheres"
+    ],
+    "sinopse": "A militante Olga Benário é entregue pelo governo Vargas à Alemanha nazista, grávida e perseguida.",
+    "comoUsar": "Direitos humanos, papel do Estado e violência política contra mulheres.",
+    "citacao": "Olga (2004) recorda que Estados também podem ser autores de violações de direitos humanos.",
+    "parte": "desenvolvimento",
+    "cor": "from-rose-700/40 to-slate-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/0/03/Capa_d%27filme_Olga.jpg"
+  },
+  {
+    "id": "carandiru",
+    "titulo": "Carandiru",
+    "ano": 2003,
+    "diretor": "Hector Babenco",
+    "imdb": 7.5,
+    "temas": [
+      "Sistema prisional",
+      "Segurança pública",
+      "Direitos humanos"
+    ],
+    "sinopse": "Um médico narra o cotidiano da maior penitenciária da América Latina até o massacre de 1992.",
+    "comoUsar": "Superlotação carcerária, ressocialização e violência institucional.",
+    "citacao": "Carandiru (2003) expõe um sistema prisional que pune sem ressocializar e devolve às ruas o que agravou.",
+    "parte": "desenvolvimento",
+    "cor": "from-stone-500/30 to-red-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/1/17/Carandiru_filme.jpg"
+  },
+  {
+    "id": "preciosa",
+    "titulo": "Preciosa",
+    "ano": 2009,
+    "diretor": "Lee Daniels",
+    "imdb": 7.3,
+    "temas": [
+      "Educação",
+      "Violência doméstica",
+      "Obesidade"
+    ],
+    "sinopse": "Uma adolescente negra vítima de abusos encontra na escola alternativa uma chance de recomeço.",
+    "comoUsar": "Educação como via de emancipação, violência intrafamiliar e assistência social.",
+    "citacao": "Preciosa (2009) demonstra que a escola pode ser o único espaço de proteção para quem vive a violência dentro de casa.",
+    "parte": "introducao",
+    "cor": "from-fuchsia-600/30 to-slate-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/4/4a/Precious_teaser_1sht-3.jpg"
+  },
+  {
+    "id": "laranja-mecanica",
+    "titulo": "Laranja Mecânica",
+    "ano": 1971,
+    "diretor": "Stanley Kubrick",
+    "imdb": 8.2,
+    "temas": [
+      "Violência",
+      "Estado",
+      "Liberdade"
+    ],
+    "sinopse": "Alex é submetido a um tratamento estatal que anula sua capacidade de escolher entre o bem e o mal.",
+    "comoUsar": "Limites do poder estatal, punitivismo e livre-arbítrio.",
+    "citacao": "Laranja Mecânica (1971) questiona um Estado que corrige comportamentos sem transformar as causas da violência.",
+    "parte": "conclusao",
+    "cor": "from-orange-500/30 to-indigo-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/7/73/A_Clockwork_Orange_%281971%29.png"
+  },
+  {
+    "id": "o-poco",
+    "titulo": "O Poço",
+    "ano": 2019,
+    "diretor": "Galder Gaztelu-Urrutia",
+    "imdb": 7,
+    "temas": [
+      "Desigualdade social",
+      "Fome",
+      "Solidariedade"
+    ],
+    "sinopse": "Uma prisão vertical distribui comida de cima para baixo e revela o comportamento humano diante da escassez.",
+    "comoUsar": "Metáfora direta de concentração de renda e de solidariedade como saída coletiva.",
+    "citacao": "O Poço (2019) traduz a lógica da concentração de renda: quem está no topo se serve primeiro e decide o que sobra.",
+    "parte": "introducao",
+    "cor": "from-slate-400/30 to-red-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/5/50/El_hoyo.jpg"
+  },
+  {
+    "id": "parasita",
+    "titulo": "Parasita",
+    "ano": 2019,
+    "diretor": "Bong Joon-ho",
+    "imdb": 8.5,
+    "temas": [
+      "Desigualdade social",
+      "Trabalho",
+      "Habitação"
+    ],
+    "sinopse": "Uma família pobre se infiltra na rotina de uma família rica, até que a arquitetura social cobra seu preço.",
+    "comoUsar": "Desigualdade, moradia e precarização do trabalho em contexto global.",
+    "citacao": "Parasita (2019) mostra que a desigualdade não é apenas econômica: é também espacial, entre o subsolo e a colina.",
+    "parte": "desenvolvimento",
+    "cor": "from-emerald-500/30 to-zinc-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/b/be/Parasite_poster.jpg"
+  },
+  {
+    "id": "nao-olhe-para-cima",
+    "titulo": "Não Olhe Para Cima",
+    "ano": 2021,
+    "diretor": "Adam McKay",
+    "imdb": 7.2,
+    "temas": [
+      "Ciência",
+      "Desinformação",
+      "Meio ambiente"
+    ],
+    "sinopse": "Cientistas tentam alertar o mundo sobre um cometa e esbarram na política, na mídia e nas redes.",
+    "comoUsar": "Negacionismo científico, crise climática e papel da mídia.",
+    "citacao": "Não Olhe Para Cima (2021) satiriza sociedades que transformam consenso científico em opinião negociável.",
+    "parte": "desenvolvimento",
+    "cor": "from-blue-500/30 to-fuchsia-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/5/5c/Don%27t_Look_Up_2021_film.jpg"
+  },
+  {
+    "id": "ela",
+    "titulo": "Ela",
+    "ano": 2013,
+    "diretor": "Spike Jonze",
+    "imdb": 8,
+    "temas": [
+      "Tecnologia",
+      "Solidão",
+      "Afetos"
+    ],
+    "sinopse": "Theodore se apaixona por um sistema operacional e revela a solidão de uma vida mediada por telas.",
+    "comoUsar": "Relações virtuais, inteligência artificial e solidão contemporânea.",
+    "citacao": "Ela (2013) antecipa uma sociedade em que a companhia algorítmica substitui o vínculo humano.",
+    "parte": "introducao",
+    "cor": "from-rose-500/30 to-orange-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/9/9b/Her.jpg"
+  },
+  {
+    "id": "tempo-de-recomecar",
+    "titulo": "O Menino que Descobriu o Vento",
+    "ano": 2019,
+    "diretor": "Chiwetel Ejiofor",
+    "imdb": 7.6,
+    "temas": [
+      "Educação",
+      "Ciência",
+      "Meio ambiente"
+    ],
+    "sinopse": "Um garoto malauiano constrói um moinho de vento com sucata para salvar sua aldeia da seca.",
+    "comoUsar": "Educação, inovação social e acesso à energia e à água.",
+    "citacao": "O Menino que Descobriu o Vento (2019) prova que ciência acessível transforma realidades locais.",
+    "parte": "conclusao",
+    "cor": "from-emerald-400/30 to-sky-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/4/44/The_Boy_Who_Harnessed_the_Wind.jpg"
+  },
+  {
+    "id": "uma-mente-brilhante",
+    "titulo": "Uma Mente Brilhante",
+    "ano": 2001,
+    "diretor": "Ron Howard",
+    "imdb": 8.2,
+    "temas": [
+      "Saúde mental",
+      "Ciência",
+      "Inclusão"
+    ],
+    "sinopse": "O matemático John Nash convive com a esquizofrenia enquanto revoluciona a teoria dos jogos.",
+    "comoUsar": "Saúde mental, estigma e inclusão de pessoas com transtornos.",
+    "citacao": "Uma Mente Brilhante (2001) mostra que suporte social é decisivo no tratamento de transtornos mentais.",
+    "parte": "desenvolvimento",
+    "cor": "from-indigo-400/30 to-slate-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/b/b1/UmaMenteBrilhante.jpg"
+  },
+  {
+    "id": "o-clube-do-imperador",
+    "titulo": "Sociedade dos Poetas Mortos",
+    "ano": 1989,
+    "diretor": "Peter Weir",
+    "imdb": 8.1,
+    "temas": [
+      "Educação",
+      "Juventude",
+      "Autonomia"
+    ],
+    "sinopse": "Um professor desafia o método tradicional de um colégio rígido e ensina alunos a pensar por si mesmos.",
+    "comoUsar": "Modelos de ensino, saúde mental na juventude e autonomia intelectual.",
+    "citacao": "Sociedade dos Poetas Mortos (1989) defende uma educação que forme sujeitos críticos, não repetidores.",
+    "parte": "conclusao",
+    "cor": "from-amber-500/30 to-emerald-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/0/04/Dead_Poets_Society.jpg"
+  },
+  {
+    "id": "hotel-ruanda",
+    "titulo": "Hotel Ruanda",
+    "ano": 2004,
+    "diretor": "Terry George",
+    "imdb": 8.1,
+    "temas": [
+      "Genocídio",
+      "Direitos humanos",
+      "Refugiados"
+    ],
+    "sinopse": "Um gerente de hotel abriga mais de mil refugiados durante o genocídio em Ruanda.",
+    "comoUsar": "Intolerância étnica, omissão internacional e refúgio.",
+    "citacao": "Hotel Ruanda (2004) denuncia que a omissão da comunidade internacional também mata.",
+    "parte": "desenvolvimento",
+    "cor": "from-orange-500/30 to-stone-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/b/bf/Hotel_Ruanda.jpg"
+  },
+  {
+    "id": "a-vida-e-bela",
+    "titulo": "A Vida é Bela",
+    "ano": 1997,
+    "diretor": "Roberto Benigni",
+    "imdb": 8.6,
+    "temas": [
+      "Holocausto",
+      "Intolerância",
+      "Família"
+    ],
+    "sinopse": "Um pai transforma o horror de um campo de concentração em jogo para proteger o filho.",
+    "comoUsar": "Intolerância, memória do Holocausto e resistência afetiva.",
+    "citacao": "A Vida é Bela (1997) lembra que a intolerância institucionalizada começa com discursos aceitos como normais.",
+    "parte": "introducao",
+    "cor": "from-yellow-500/30 to-neutral-900/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/a/af/La_vita_%C3%A8_bella.jpg"
+  },
+  {
+    "id": "nise",
+    "titulo": "Nise: O Coração da Loucura",
+    "ano": 2015,
+    "diretor": "Roberto Berliner",
+    "imdb": 8.1,
+    "temas": [
+      "Saúde mental",
+      "Ciência",
+      "Direitos humanos"
+    ],
+    "sinopse": "A psiquiatra Nise da Silveira recusa métodos violentos e trata pacientes com arte e afeto.",
+    "comoUsar": "Reforma psiquiátrica, humanização da saúde e protagonismo feminino na ciência.",
+    "citacao": "Nise (2015) prova que humanizar o cuidado é mais eficaz do que discipliná-lo pela força.",
+    "parte": "conclusao",
+    "cor": "from-teal-400/30 to-purple-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/1/19/Nise-_O_Cora%C3%A7%C3%A3o_da_Loucura.jpg"
+  },
+  {
+    "id": "temporada-de-caca",
+    "titulo": "Aquarius",
+    "ano": 2016,
+    "diretor": "Kleber Mendonça Filho",
+    "imdb": 7.6,
+    "temas": [
+      "Habitação",
+      "Especulação imobiliária",
+      "Idosos"
+    ],
+    "sinopse": "Clara resiste à pressão de uma construtora para deixar o apartamento onde viveu a vida inteira.",
+    "comoUsar": "Direito à cidade, especulação imobiliária e envelhecimento.",
+    "citacao": "Aquarius (2016) mostra que a cidade também expulsa pela pressão econômica, sem precisar de decreto.",
+    "parte": "desenvolvimento",
+    "cor": "from-cyan-400/30 to-rose-900/50",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/8/80/Aquarius_%28filme%29.jpg"
+  },
+  {
+    "id": "democracia-em-vertigem",
+    "titulo": "Democracia em Vertigem",
+    "ano": 2019,
+    "diretor": "Petra Costa",
+    "imdb": 7.2,
+    "temas": [
+      "Democracia",
+      "Política",
+      "Mídia"
+    ],
+    "sinopse": "Documentário sobre a crise política brasileira recente a partir de uma perspectiva pessoal.",
+    "comoUsar": "Polarização, instituições e papel da imprensa.",
+    "citacao": "Democracia em Vertigem (2019) evidencia como a erosão da confiança nas instituições fragiliza a democracia.",
+    "parte": "desenvolvimento",
+    "cor": "from-green-500/30 to-blue-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/e/e0/Democracia_em_Vertigem.jpg"
+  },
+  {
+    "id": "nosso-lar",
+    "titulo": "Que Horas São Aí?",
+    "ano": 2001,
+    "diretor": "Tsai Ming-liang",
+    "imdb": 7.5,
+    "temas": [
+      "Solidão",
+      "Cidade",
+      "Luto"
+    ],
+    "sinopse": "Um vendedor de relógios em Taipé vive o luto e a distância em uma cidade indiferente.",
+    "comoUsar": "Solidão urbana e saúde mental nas grandes cidades.",
+    "citacao": "Que Horas São Aí? (2001) retrata a solidão que se instala mesmo em meio à multidão urbana.",
+    "parte": "introducao",
+    "cor": "from-blue-400/30 to-zinc-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/en/c/ce/Whattimeisitthere.jpg"
+  },
+  {
+    "id": "bicho-de-sete-cabecas",
+    "titulo": "Bicho de Sete Cabeças",
+    "ano": 2001,
+    "diretor": "Laís Bodanzky",
+    "imdb": 8.1,
+    "temas": [
+      "Saúde mental",
+      "Família",
+      "Direitos humanos"
+    ],
+    "sinopse": "Um jovem é internado à força pelo pai em um manicômio e enfrenta a violência da instituição.",
+    "comoUsar": "Internação compulsória, relações familiares e reforma psiquiátrica.",
+    "citacao": "Bicho de Sete Cabeças (2001) denuncia instituições que tratam o sofrimento psíquico como desvio a ser punido.",
+    "parte": "desenvolvimento",
+    "cor": "from-red-400/30 to-indigo-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/0/0e/Bicho_de_Sete_Cabe%C3%A7as_poster.jpg"
+  },
+  {
+    "id": "infancia-roubada",
+    "titulo": "Que Bom Te Ver Viva",
+    "ano": 1989,
+    "diretor": "Lúcia Murat",
+    "imdb": 7.4,
+    "temas": [
+      "Ditadura",
+      "Mulheres",
+      "Memória"
+    ],
+    "sinopse": "Depoimentos de mulheres que sobreviveram à tortura durante a ditadura militar brasileira.",
+    "comoUsar": "Memória, justiça de transição e violência de Estado contra mulheres.",
+    "citacao": "Que Bom Te Ver Viva (1989) mostra que as marcas da violência de Estado atravessam gerações.",
+    "parte": "conclusao",
+    "cor": "from-purple-500/30 to-stone-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/d/d4/Que_Bom_Te_Ver_Viva.jpg"
+  },
+  {
+    "id": "o-jardineiro-fiel",
+    "titulo": "O Jardineiro Fiel",
+    "ano": 2005,
+    "diretor": "Fernando Meirelles",
+    "imdb": 7.4,
+    "temas": [
+      "Saúde",
+      "Corporações",
+      "África"
+    ],
+    "sinopse": "Um diplomata investiga a morte da esposa e descobre testes farmacêuticos ilegais na África.",
+    "comoUsar": "Ética na saúde, poder corporativo e desigualdade global.",
+    "citacao": "O Jardineiro Fiel (2005) alerta para a exploração de populações vulneráveis em nome do lucro farmacêutico.",
+    "parte": "desenvolvimento",
+    "cor": "from-emerald-500/30 to-red-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/e/ec/The_Constant_Gardener.jpg"
+  },
+  {
+    "id": "erin-brockovich",
+    "titulo": "Erin Brockovich",
+    "ano": 2000,
+    "diretor": "Steven Soderbergh",
+    "imdb": 7.4,
+    "temas": [
+      "Meio ambiente",
+      "Justiça",
+      "Mulheres"
+    ],
+    "sinopse": "Uma mãe solo sem formação jurídica enfrenta uma empresa que contaminou a água de uma cidade.",
+    "comoUsar": "Contaminação ambiental, acesso à justiça e protagonismo feminino.",
+    "citacao": "Erin Brockovich (2000) mostra que a mobilização cidadã pode romper o silêncio de grandes corporações.",
+    "parte": "conclusao",
+    "cor": "from-amber-400/30 to-cyan-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/7/75/Erin_Brockovich_poster.jpg"
+  },
+  {
+    "id": "a-caminho-de-casa",
+    "titulo": "Lion: Uma Jornada Para Casa",
+    "ano": 2016,
+    "diretor": "Garth Davis",
+    "imdb": 8,
+    "temas": [
+      "Infância",
+      "Pobreza",
+      "Tecnologia"
+    ],
+    "sinopse": "Um menino indiano se perde da família, é adotado na Austrália e usa mapas digitais para reencontrar sua origem.",
+    "comoUsar": "Infância vulnerável, adoção e tecnologia com uso social.",
+    "citacao": "Lion (2016) evidencia que a tecnologia ganha sentido quando reconstrói vínculos, e não quando os substitui.",
+    "parte": "conclusao",
+    "cor": "from-orange-400/30 to-blue-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/7/70/Lion_%28filme%29.png"
+  },
+  {
+    "id": "a-corrente-do-bem",
+    "titulo": "A Corrente do Bem",
+    "ano": 2000,
+    "diretor": "Mimi Leder",
+    "imdb": 7.2,
+    "temas": [
+      "Solidariedade",
+      "Educação",
+      "Empatia"
+    ],
+    "sinopse": "Um menino cria um projeto escolar de gentileza em cadeia que transforma sua comunidade.",
+    "comoUsar": "Proposta de intervenção com foco em empatia, escola e ação comunitária.",
+    "citacao": "A Corrente do Bem (2000) demonstra que mudanças estruturais começam por gestos coletivos multiplicáveis.",
+    "parte": "conclusao",
+    "cor": "from-yellow-400/30 to-teal-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/en/d/da/Pay_it_forward_ver1.jpg"
+  },
+  {
+    "id": "estamira",
+    "titulo": "Estamira",
+    "ano": 2004,
+    "diretor": "Marcos Prado",
+    "imdb": 8.3,
+    "temas": [
+      "Saúde mental",
+      "Lixo",
+      "Invisibilidade"
+    ],
+    "sinopse": "Retrato de uma mulher com transtorno mental que vive há décadas em um aterro no Rio de Janeiro.",
+    "comoUsar": "Catadores, resíduos sólidos e invisibilidade social.",
+    "citacao": "Estamira (2004) mostra que a sociedade descarta pessoas com a mesma naturalidade com que descarta lixo.",
+    "parte": "introducao",
+    "cor": "from-lime-400/30 to-neutral-950/60",
+    "cartaz": "cartaz-estamira.jpg"
+  },
+  {
+    "id": "o-menino-do-pijama",
+    "titulo": "O Menino do Pijama Listrado",
+    "ano": 2008,
+    "diretor": "Mark Herman",
+    "imdb": 7.7,
+    "temas": [
+      "Intolerância",
+      "Infância",
+      "Holocausto"
+    ],
+    "sinopse": "A amizade entre o filho de um oficial nazista e um menino judeu revela o absurdo da segregação.",
+    "comoUsar": "Intolerância, doutrinação e infância diante do preconceito.",
+    "citacao": "O Menino do Pijama Listrado (2008) mostra que o preconceito é aprendido, nunca natural.",
+    "parte": "introducao",
+    "cor": "from-slate-300/30 to-blue-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/1/1f/The_Boy_in_the_Striped_Pyjamas.png"
+  },
+  {
+    "id": "garotas-de-programa",
+    "titulo": "Milk: A Voz da Igualdade",
+    "ano": 2008,
+    "diretor": "Gus Van Sant",
+    "imdb": 7.5,
+    "temas": [
+      "LGBTQIA+",
+      "Direitos civis",
+      "Política"
+    ],
+    "sinopse": "Harvey Milk se torna o primeiro político abertamente gay eleito na Califórnia e luta por direitos civis.",
+    "comoUsar": "Direitos LGBTQIA+, representatividade política e cidadania.",
+    "citacao": "Milk (2008) lembra que a conquista de direitos depende de representação nos espaços de decisão.",
+    "parte": "desenvolvimento",
+    "cor": "from-pink-500/30 to-indigo-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/3/32/MilkPoster.jpg"
+  },
+  {
+    "id": "intocaveis",
+    "titulo": "Intocáveis",
+    "ano": 2011,
+    "diretor": "Olivier Nakache",
+    "imdb": 8.5,
+    "temas": [
+      "Acessibilidade",
+      "Preconceito",
+      "Trabalho"
+    ],
+    "sinopse": "Um aristocrata tetraplégico contrata um cuidador da periferia e ambos rompem barreiras sociais.",
+    "comoUsar": "Acessibilidade, capacitismo e inclusão no mercado de trabalho.",
+    "citacao": "Intocáveis (2011) evidencia que a maior barreira enfrentada por pessoas com deficiência é social, não física.",
+    "parte": "desenvolvimento",
+    "cor": "from-amber-300/30 to-slate-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/d/d6/Intouchables_cartaz.jpg"
+  },
+  {
+    "id": "extraordinario",
+    "titulo": "Extraordinário",
+    "ano": 2017,
+    "diretor": "Stephen Chbosky",
+    "imdb": 7.9,
+    "temas": [
+      "Bullying",
+      "Educação",
+      "Inclusão"
+    ],
+    "sinopse": "Auggie, um menino com deformidade facial, entra na escola regular e enfrenta o olhar dos colegas.",
+    "comoUsar": "Bullying escolar, inclusão e empatia; ótimo para propostas de intervenção pedagógicas.",
+    "citacao": "Extraordinário (2017) mostra que a escola inclusiva se constrói na convivência, não apenas na matrícula.",
+    "parte": "conclusao",
+    "cor": "from-sky-400/30 to-violet-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/f/f1/Wonder_%28filme%29.png"
+  },
+  {
+    "id": "nomadland",
+    "titulo": "Nomadland",
+    "ano": 2020,
+    "diretor": "Chloé Zhao",
+    "imdb": 7.3,
+    "temas": [
+      "Trabalho",
+      "Idosos",
+      "Habitação"
+    ],
+    "sinopse": "Após perder tudo na crise econômica, Fern vive em uma van e trabalha em empregos temporários.",
+    "comoUsar": "Precarização do trabalho, envelhecimento e crise habitacional.",
+    "citacao": "Nomadland (2020) revela o rosto da precarização: trabalhar a vida inteira e envelhecer sem teto.",
+    "parte": "desenvolvimento",
+    "cor": "from-orange-300/30 to-blue-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/9/94/Nomadland_%28cartaz%29.png"
+  },
+  {
+    "id": "vidas-secas",
+    "titulo": "Vidas Secas",
+    "ano": 1963,
+    "diretor": "Nelson Pereira dos Santos",
+    "imdb": 7.9,
+    "temas": [
+      "Seca",
+      "Fome",
+      "Desigualdade social"
+    ],
+    "sinopse": "Uma família de retirantes atravessa o sertão fugindo da seca e da miséria, sem terra e sem direitos.",
+    "comoUsar": "Clássico do Cinema Novo para seca, migração forçada e fome no Nordeste.",
+    "citacao": "Vidas Secas (1963) mostra que a seca só vira tragédia quando somada ao abandono do poder público.",
+    "parte": "introducao",
+    "cor": "from-yellow-700/40 to-stone-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/7/7f/Vidas_Secas_CN_0116A.jpg"
+  },
+  {
+    "id": "roma",
+    "titulo": "Roma",
+    "ano": 2018,
+    "diretor": "Alfonso Cuarón",
+    "imdb": 7.7,
+    "temas": [
+      "Trabalho",
+      "Mulheres",
+      "Desigualdade social"
+    ],
+    "sinopse": "Cleo é empregada doméstica de uma família de classe média na Cidade do México dos anos 1970.",
+    "comoUsar": "Trabalho doméstico, maternidade e racismo estrutural na América Latina.",
+    "citacao": "Roma (2018) revela o silêncio imposto a mulheres que sustentam casas alheias sem espaço na própria história.",
+    "parte": "desenvolvimento",
+    "cor": "from-slate-400/30 to-slate-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/f/f1/Roma_-_Poster.jpeg"
+  },
+  {
+    "id": "green-book",
+    "titulo": "Green Book: O Guia",
+    "ano": 2018,
+    "diretor": "Peter Farrelly",
+    "imdb": 8.2,
+    "temas": [
+      "Racismo",
+      "Direitos civis",
+      "Preconceito"
+    ],
+    "sinopse": "Um pianista negro percorre o sul segregado dos EUA guiado por um motorista branco e por um manual de sobrevivência racial.",
+    "comoUsar": "Segregação institucional, convivência e desconstrução de preconceitos.",
+    "citacao": "Green Book (2018) lembra que talento e prestígio não protegem quem é alvo do racismo institucional.",
+    "parte": "desenvolvimento",
+    "cor": "from-emerald-500/30 to-amber-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/f/f0/Green_Book_-_Poster.jpg"
+  },
+  {
+    "id": "12-anos-de-escravidao",
+    "titulo": "12 Anos de Escravidão",
+    "ano": 2013,
+    "diretor": "Steve McQueen",
+    "imdb": 8.1,
+    "temas": [
+      "Escravidão",
+      "Racismo",
+      "Direitos humanos"
+    ],
+    "sinopse": "Solomon Northup, homem negro livre, é sequestrado e vendido como escravo nos Estados Unidos do século XIX.",
+    "comoUsar": "Herança escravocrata, racismo estrutural e reparação histórica.",
+    "citacao": "12 Anos de Escravidão (2013) evidencia que a escravidão moldou desigualdades que sobrevivem à sua abolição.",
+    "parte": "introducao",
+    "cor": "from-amber-700/40 to-neutral-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/d/dc/Twelve_Years_a_Slave.jpg"
+  },
+  {
+    "id": "persepolis",
+    "titulo": "Persépolis",
+    "ano": 2007,
+    "diretor": "Marjane Satrapi",
+    "imdb": 8,
+    "temas": [
+      "Mulheres",
+      "Liberdade",
+      "Refugiados"
+    ],
+    "sinopse": "Marjane cresce no Irã da revolução islâmica e enfrenta o exílio e a perda de liberdades individuais.",
+    "comoUsar": "Fundamentalismo, direitos das mulheres e condição de refugiada.",
+    "citacao": "Persépolis (2007) mostra que restringir a liberdade feminina é o primeiro passo de todo projeto autoritário.",
+    "parte": "desenvolvimento",
+    "cor": "from-fuchsia-500/30 to-zinc-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/d/d6/Persepolis_poster.jpg"
+  },
+  {
+    "id": "o-sal-da-terra",
+    "titulo": "O Sal da Terra",
+    "ano": 2014,
+    "diretor": "Wim Wenders",
+    "imdb": 8.3,
+    "temas": [
+      "Meio ambiente",
+      "Direitos humanos",
+      "Fotografia"
+    ],
+    "sinopse": "A trajetória do fotógrafo Sebastião Salgado, entre tragédias humanitárias e o reflorestamento da Mata Atlântica.",
+    "comoUsar": "Crise ambiental, recuperação de biomas e denúncia social pela imagem.",
+    "citacao": "O Sal da Terra (2014) prova que a degradação ambiental pode ser revertida quando existe projeto coletivo.",
+    "parte": "conclusao",
+    "cor": "from-lime-600/30 to-emerald-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/en/0/04/TheSaltoftheEarth2014.jpg"
+  },
+  {
+    "id": "lixo-extraordinario",
+    "titulo": "Lixo Extraordinário",
+    "ano": 2010,
+    "diretor": "Lucy Walker",
+    "imdb": 8,
+    "temas": [
+      "Resíduos sólidos",
+      "Trabalho",
+      "Arte"
+    ],
+    "sinopse": "O artista Vik Muniz cria obras com catadores do aterro de Jardim Gramacho, no Rio de Janeiro.",
+    "comoUsar": "Catadores, reciclagem e arte como ferramenta de dignidade.",
+    "citacao": "Lixo Extraordinário (2010) mostra que reciclagem é também uma política de dignidade para quem vive do descarte.",
+    "parte": "conclusao",
+    "cor": "from-teal-500/30 to-stone-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Waste_Land-poster.jpg"
+  },
+  {
+    "id": "selma",
+    "titulo": "Selma: Uma Luta pela Igualdade",
+    "ano": 2014,
+    "diretor": "Ava DuVernay",
+    "imdb": 7.5,
+    "temas": [
+      "Direitos civis",
+      "Racismo",
+      "Democracia"
+    ],
+    "sinopse": "Martin Luther King lidera a marcha de Selma pelo direito ao voto da população negra nos EUA.",
+    "comoUsar": "Participação política, movimentos sociais e conquista de direitos.",
+    "citacao": "Selma (2014) reforça que direitos não são concedidos: são conquistados pela mobilização organizada.",
+    "parte": "conclusao",
+    "cor": "from-indigo-500/30 to-red-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/d/db/Selma_%28filme%29.jpg"
+  },
+  {
+    "id": "eu-daniel-blake",
+    "titulo": "Eu, Daniel Blake",
+    "ano": 2016,
+    "diretor": "Ken Loach",
+    "imdb": 7.9,
+    "temas": [
+      "Trabalho",
+      "Burocracia",
+      "Assistência social"
+    ],
+    "sinopse": "Um carpinteiro doente enfrenta a burocracia do sistema de assistência britânico para receber auxílio.",
+    "comoUsar": "Burocracia estatal, exclusão digital e proteção social.",
+    "citacao": "Eu, Daniel Blake (2016) denuncia sistemas de proteção social que humilham justamente quem mais precisa deles.",
+    "parte": "desenvolvimento",
+    "cor": "from-blue-600/30 to-stone-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/8/8c/I%2C_Daniel_Blake.jpg"
+  },
+  {
+    "id": "escritores-da-liberdade",
+    "titulo": "Escritores da Liberdade",
+    "ano": 2007,
+    "diretor": "Richard LaGravenese",
+    "imdb": 7.5,
+    "temas": [
+      "Educação",
+      "Violência",
+      "Juventude"
+    ],
+    "sinopse": "Uma professora usa a escrita de diários para transformar a vida de alunos marcados pela violência urbana.",
+    "comoUsar": "Educação transformadora, escrita como resistência e propostas de intervenção escolares.",
+    "citacao": "Escritores da Liberdade (2007) demonstra que dar voz aos estudantes é uma estratégia pedagógica contra a violência.",
+    "parte": "conclusao",
+    "cor": "from-rose-500/30 to-indigo-950/60",
+    "cartaz": "https://upload.wikimedia.org/wikipedia/pt/7/73/FWPoster.jpg"
+  }
+]

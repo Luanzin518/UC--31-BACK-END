@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<div class="container pb-5">
+  <h1 class="h3">Programa de <span class="brilho">acessibilidade</span></h1>
+  <p class="texto-suave col-lg-8">
+    O CineRepertório foi construído para ser usado por todo mundo. Todos os recursos abaixo ficam no botão
+    de acessibilidade, no canto inferior direito de qualquer página, e a escolha é lembrada no navegador.
+  </p>
+
+  <div class="row g-4 mt-1">
+    <div class="col-md-6">
+      <section class="painel p-4 h-100" aria-labelledby="t-daltonismo">
+        <h2 class="h6 brilho" id="t-daltonismo">Daltonismo</h2>
+        <p class="texto-suave small mb-2">Quatro modos de correção de cor aplicados à página inteira:</p>
+        <ul class="texto-suave small mb-0">
+          <li>Protanopia (dificuldade com vermelho)</li>
+          <li>Deuteranopia (dificuldade com verde)</li>
+          <li>Tritanopia (dificuldade com azul)</li>
+          <li>Monocromático (tons de cinza)</li>
+        </ul>
+        <p class="texto-suave small mt-2 mb-0">Nenhuma informação do site depende só da cor: nota do IMDb, temas e avisos sempre têm texto ou ícone.</p>
+      </section>
+    </div>
+
+    <div class="col-md-6">
+      <section class="painel p-4 h-100" aria-labelledby="t-libras">
+        <h2 class="h6 brilho" id="t-libras">Libras</h2>
+        <p class="texto-suave small mb-0">
+          O tradutor <strong>VLibras</strong> (Governo Federal) pode ser ligado no painel. Um avatar aparece na tela e
+          traduz para Língua Brasileira de Sinais qualquer texto selecionado no site — inclusive as respostas da IA.
+        </p>
+      </section>
+    </div>
+
+    <div class="col-md-6">
+      <section class="painel p-4 h-100" aria-labelledby="t-baixa-visao">
+        <h2 class="h6 brilho" id="t-baixa-visao">Baixa visão e leitura</h2>
+        <ul class="texto-suave small mb-0">
+          <li>Alto contraste</li>
+          <li>Fonte ampliada (até 125%)</li>
+          <li>Leitura da página em voz alta (síntese de voz do navegador)</li>
+          <li>Foco visível em todos os links, botões e campos</li>
+          <li>Imagens com texto alternativo descritivo</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="col-md-6">
+      <section class="painel p-4 h-100" aria-labelledby="t-motora">
+        <h2 class="h6 brilho" id="t-motora">Navegação e movimento</h2>
+        <ul class="texto-suave small mb-0">
+          <li>Link "pular para o conteúdo principal"</li>
+          <li>Navegação completa por teclado (Tab e Enter)</li>
+          <li>Regiões com marcação semântica e <code>aria-label</code></li>
+          <li>Opção de reduzir animações (as esteiras de cartazes param)</li>
+          <li>Avisos anunciados por leitores de tela com <code>aria-live</code></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>
+{% endblock %}
