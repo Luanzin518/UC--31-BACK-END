@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+
+
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="theme-color" content="#1A1A1A">
+    <title>BellaGlow - Cosméticos Premium que Revelam Sua Beleza</title>
+    <meta name="description" content="BellaGlow Cosméticos - Skincare, maquiagem e perfumaria premium. Produtos selecionados para realçar sua beleza natural com sofisticação e qualidade.">
+    <meta name="keywords" content="cosméticos, maquiagem, skincare, perfume, beleza, batom, base, sérum">
+    <meta name="author" content="BellaGlow">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BellaGlow - Cosméticos Premium">
+    <meta property="og:description" content="Cosméticos premium que revelam sua beleza natural">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522335789203-aaa0f6c7e3b1?w=1200&q=80">
+    <meta property="og:url" content="https://bellaglow.com.br">
+    <meta property="og:site_name" content="BellaGlow">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BellaGlow - Cosméticos Premium">
+    <meta name="twitter:description" content="Cosméticos premium para sua beleza">
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💄</text></svg>">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "BellaGlow",
+      "url": "https://bellaglow.com.br",
+      "logo": "https://bellaglow.com.br/logo.png",
+      "description": "Cosméticos premium para realçar sua beleza natural",
+      "sameAs": [
+        "https://instagram.com/bellaglow",
+        "https://tiktok.com/@bellaglow"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-11-99999-9999",
+        "contactType": "Customer Service",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header" role="banner">
+        <div class="container">
+            <div class="header-inner">
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+                    <span></span>
+                </button>
+
+                <a href="#" class="logo" aria-label="BellaGlow - Página Inicial">
+                    BELLA<span>GLOW</span>
+                </a>
+
+                <nav class="main-nav" id="mainNav" role="navigation" aria-label="Menu principal">
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav-link active" data-page="home">Início</a></li>
+                        <li><a href="#loja" class="nav-link" data-page="shop">Loja</a></li>
+                        <li><a href="#colecoes" class="nav-link">Coleções</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                        <li><a href="#sale" class="nav-link sale">Sale</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="header-action" id="searchBtn" aria-label="Buscar produtos" title="Buscar">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                    </button>
+                    <button class="header-action" id="themeToggle" aria-label="Alternar modo escuro" title="Modo Escuro">
+                        <i class="fas fa-moon" aria-hidden="true"></i>
+                    </button>
+                    <button class="header-action" id="wishlistBtn" aria-label="Meus favoritos" title="Favoritos">
+                        <i class="far fa-heart" aria-hidden="true"></i>
+                        <span class="badge wishlist-count" id="wishlistCount">0</span>
+                    </button>
+                    <button class="header-action" id="userBtn" aria-label="Minha conta" title="Minha Conta">
+                        <i class="far fa-user" aria-hidden="true"></i>
+                    </button>
+                    <button class="header-action" id="cartBtn" aria-label="Carrinho de compras" title="Carrinho">
+                        <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                        <span class="badge cart-count" id="cartCount">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero" id="home" aria-label="Apresentação">
+            <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1522335789203-aaa0f6c7e3b1?w=1920&q=80');"></div>
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Coleção Outono 2026</span>
+                    <h1 class="hero-title">Sua Beleza, <em>Nossa Paixão</em></h1>
+                    <p class="hero-description">Descubra os produtos que vão transformar sua rotina de cuidados. Cosméticos premium formulados com ingredientes de alta performance para realçar sua beleza única.</p>
+                    <div class="hero-actions">
+                        <a href="#loja" class="btn btn-primary btn-lg">
+                            Explorar Coleção
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                        <a href="#sale" class="btn btn-outline-light btn-lg">Ver Ofertas</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#categorias" class="hero-scroll" aria-label="Rolar para baixo">
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <!-- ===== CATEGORIAS ===== -->
+        <section class="section" id="categorias" aria-labelledby="categorias-title">
+            <div class="container">
+                <header class="section-header reveal">
+                    <span class="section-eyebrow">Explore</span>
+                    <h2 class="section-title" id="categorias-title">Nossas <em>Categorias</em></h2>
+                    <p class="section-description">Encontre o produto perfeito para cada momento da sua rotina de beleza</p>
+                </header>
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categorias renderizadas via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PRODUTOS EM DESTAQUE ===== -->
+        <section class="section section-alt" id="destaques" aria-labelledby="destaques-title">
+            <div class="container">
+                <header class="section-header reveal">
+                    <span class="section-eyebrow">Novidades</span>
+                    <h2 class="section-title" id="destaques-title">Lançamentos <em>Exclusivos</em></h2>
+                    <p class="section-description">Os produtos mais desejados da temporada, selecionados especialmente para você</p>
+                </header>
+                <div class="products-grid" id="featuredGrid">
+                    <!-- Produtos em destaque via JS -->
+                </div>
+                <div class="section-footer">
+                    <a href="#loja" class="btn btn-outline btn-lg">Ver Todos os Produtos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== COLEÇÕES / BANNERS ===== -->
+        <section class="section" id="colecoes" aria-labelledby="colecoes-title">
+            <div class="container">
+                <header class="section-header reveal">
+                    <span class="section-eyebrow">Especial</span>
+                    <h2 class="section-title" id="colecoes-title">Coleções em <em>Destaque</em></h2>
+                </header>
+                <div class="collections-grid">
+                    <a href="#" class="collection-banner reveal" aria-label="Coleção Glow Essentials">
+                        <div class="collection-image" style="background-image: url('https://images.unsplash.com/photo-1556228841-a3c527ebefe5?w=1200&q=80');"></div>
+                        <div class="collection-content">
+                            <span class="collection-eyebrow">Coleção Glow Essentials</span>
+                            <h3 class="collection-title">Skincare Completo</h3>
+                            <p>Rotina completa em 5 passos para uma pele radiante</p>
+                            <span class="collection-cta">Descobrir <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        </div>
+                    </a>
+                    <a href="#" class="collection-banner reveal" aria-label="Coleção Best Sellers">
+                        <div class="collection-image" style="background-image: url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&q=80');"></div>
+                        <div class="collection-content">
+                            <span class="collection-eyebrow">Mais Vendidos</span>
+                            <h3 class="collection-title">Best Sellers</h3>
+                            <p>Os favoritos das nossas clientes</p>
+                            <span class="collection-cta">Ver Lista <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== LOJA COM FILTROS ===== -->
+        <section class="section section-alt" id="loja" aria-labelledby="loja-title">
+            <div class="container">
+                <header class="section-header reveal">
+                    <span class="section-eyebrow">Nossa Loja</span>
+                    <h2 class="section-title" id="loja-title">Todos os <em>Produtos</em></h2>
+                    <p class="section-description">Use os filtros para encontrar o produto ideal para você</p>
+                </header>
+
+                <div class="shop-layout">
+                    <aside class="shop-sidebar" id="shopSidebar" aria-label="Filtros">
+                        <div class="filter-group">
+                            <h4 class="filter-title">Categorias</h4>
+                            <div class="filter-options" id="categoryFilters">
+                                <!-- Filtros de categoria via JS -->
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <h4 class="filter-title">Tamanho</h4>
+                            <div class="size-options" id="sizeFilters">
+                                <button class="size-option" data-size="PP">PP</button>
+                                <button class="size-option" data-size="P">P</button>
+                                <button class="size-option active" data-size="M">M</button>
+                                <button class="size-option" data-size="G">G</button>
+                                <button class="size-option" data-size="GG">GG</button>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <h4 class="filter-title">Cor</h4>
+                            <div class="color-options" id="colorFilters">
+                                <button class="color-option" style="background: #F5DCC4" data-color="#F5DCC4" title="Porcelain"></button>
+                                <button class="color-option" style="background: #E8C8A8" data-color="#E8C8A8" title="Beige"></button>
+                                <button class="color-option" style="background: #D4B088" data-color="#D4B088" title="Sand"></button>
+                                <button class="color-option" style="background: #B89070" data-color="#B89070" title="Caramel"></button>
+                                <button class="color-option" style="background: #C44545" data-color="#C44545" title="Vermelho"></button>
+                                <button class="color-option" style="background: #E8B4B8" data-color="#E8B4B8" title="Rose"></button>
+                            </div>
+                        </div>
+
+                        <div class="filter-group">
+                            <h4 class="filter-title">Preço</h4>
+                            <div class="filter-options">
+                                <label class="filter-checkbox">
+                                    <input type="radio" name="price" value="0-50" data-min="0" data-max="5000">
+                                    Até R$ 50
+                                </label>
+                                <label class="filter-checkbox">
+                                    <input type="radio" name="price" value="50-100" data-min="5000" data-max="10000">
+                                    R$ 50 a R$ 100
+                                </label>
+                                <label class="filter-checkbox">
+                                    <input type="radio" name="price" value="100-200" data-min="10000" data-max="20000">
+                                    R$ 100 a R$ 200
+                                </label>
+                                <label class="filter-checkbox">
+                                    <input type="radio" name="price" value="200+" data-min="20000" data-max="99999">
+                                    Acima de R$ 200
+                                </label>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <div>
+                        <div class="shop-toolbar">
+                            <button class="filter-toggle-mobile" id="filterToggle">
+                                <i class="fas fa-filter" aria-hidden="true"></i>
+                                Filtros
+                            </button>
+                            <span class="shop-count" id="shopCount">12 produtos</span>
+                            <select class="sort-select" id="sortSelect" aria-label="Ordenar produtos">
+                                <option value="relevance">Mais Relevantes</option>
+                                <option value="price-asc">Menor Preço</option>
+                                <option value="price-desc">Maior Preço</option>
+                                <option value="newest">Mais Recentes</option>
+                            </select>
+                        </div>
+                        <div class="products-grid" id="shopGrid">
+                            <!-- Produtos da loja via JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEWSLETTER ===== -->
+        <section class="newsletter" aria-labelledby="newsletter-title">
+            <div class="container">
+                <div class="newsletter-content reveal">
+                    <h2 id="newsletter-title">Receba Nossas Novidades</h2>
+                    <p>Cadastre-se e ganhe <strong>10% OFF</strong> na primeira compra, além de acesso exclusivo a lançamentos e dicas de beleza.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Seu melhor e-mail" required aria-label="Seu e-mail">
+                        <button type="submit">Quero Desconto</button>
+                    </form>
+                    <p class="newsletter-privacy">Ao se cadastrar, você concorda com nossa <a href="#">Política de Privacidade</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE ===== -->
+        <section class="section" id="sobre" aria-labelledby="sobre-title">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">Nossa História</span>
+                    <h2 class="section-title" id="sobre-title">Beleza com <em>Propósito</em></h2>
+                    <p class="section-description">Acreditamos que toda mulher merece se sentir linda e confiante. Por isso, selecionamos os melhores produtos de beleza do mundo para você.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="contato" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">BELLA<span>GLOW</span></a>
+                    <p class="footer-tagline">Cosméticos premium que celebram sua beleza única. Produtos selecionados, qualidade garantida.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Institucional</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Nossas Lojas</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                        <li><a href="#">Blog de Beleza</a></li>
+                        <li><a href="#">Programa de Afiliados</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Ajuda</h4>
+                    <ul class="footer-list">
+                        <li><a href="#">Como Comprar</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Prazo de Entrega</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Rastrear Pedido</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="footer-list footer-contact">
+                        <li><i class="fab fa-whatsapp" aria-hidden="true"></i> (11) 99999-9999</li>
+                        <li><i class="far fa-envelope" aria-hidden="true"></i> contato@bellaglow.com.br</li>
+                        <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> São Paulo, SP</li>
+                        <li><i class="far fa-clock" aria-hidden="true"></i> Seg-Sex: 9h às 18h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-payments">
+                    <span>Pagamento:</span>
+                    <div class="footer-payments-icons">
+                        <i class="fab fa-cc-visa" aria-label="Visa"></i>
+                        <i class="fab fa-cc-mastercard" aria-label="Mastercard"></i>
+                        <i class="fab fa-cc-amex" aria-label="American Express"></i>
+                        <i class="fab fa-pix" aria-label="PIX"></i>
+                        <i class="fas fa-barcode" aria-label="Boleto"></i>
+                    </div>
+                </div>
+                <div class="footer-security">
+                    <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                    Site Seguro SSL
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2026 BellaGlow. CNPJ: 00.000.000/0001-00
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== CARRINHO OFF-CANVAS ===== -->
+    <div class="cart-overlay" id="cartOverlay" aria-hidden="true"></div>
+    <aside class="cart-sidebar" id="cartSidebar" role="dialog" aria-label="Carrinho de compras" aria-hidden="true">
+        <header class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="cart-close" id="cartClose" aria-label="Fechar carrinho">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+        </header>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-empty">
+                <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                <p>Seu carrinho está vazio</p>
+                <small>Adicione produtos para continuar</small>
+            </div>
+        </div>
+        <div class="cart-summary" id="cartSummary" style="display: none;">
+            <div class="cart-row">
+                <span>Subtotal</span>
+                <span id="cartSubtotal">R$ 0,00</span>
+            </div>
+            <div class="cart-row">
+                <span>Frete</span>
+                <span id="cartShipping" class="free">GRÁTIS</span>
+            </div>
+            <div class="cart-row total">
+                <span>Total</span>
+                <span id="cartTotal">R$ 0,00</span>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-primary btn-block btn-lg" id="checkoutBtn">
+                    Finalizar Compra
+                </button>
+                <button class="btn btn-outline btn-block" id="continueShoppingBtn">
+                    Continuar Comprando
+                </button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ===== TOAST ===== -->
+    <div class="toast" id="toast" role="alert" aria-live="polite">
+        <i class="fas fa-check-circle" aria-hidden="true"></i>
+        <span id="toastMessage">Produto adicionado!</span>
+    </div>
+
+    <!-- ===== WHATSAPP FLUTUANTE ===== -->
+    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de tirar uma dúvida sobre os produtos."
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener"
+       aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span class="whatsapp-tooltip">Fale conosco</span>
+    </a>
+
+    <!-- ===== COOKIE BANNER ===== -->
+    <div class="cookie-banner" id="cookieBanner" role="alert">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p>🍪 Usamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa <a href="#">Política de Privacidade</a>.</p>
+            </div>
+            <div class="cookie-actions">
+                <button class="btn btn-outline-light btn-sm" id="cookieAccept">Aceitar</button>
+                <button class="btn btn-ghost btn-sm" id="cookieReject" style="color: white;">Recusar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== MODAL: QUICK VIEW ===== -->
+    <div class="modal" id="quickViewModal" role="dialog" aria-labelledby="quickViewTitle" aria-hidden="true">
+        <div class="modal-overlay" data-close-modal></div>
+        <div class="modal-content" id="quickViewContent">
+            <button class="modal-close" data-close-modal aria-label="Fechar">
+                <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+            <div class="modal-grid">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <span class="product-brand" id="modalBrand"></span>
+                    <h3 class="product-name" id="modalName"></h3>
+                    <div class="product-rating">
+                        <span class="product-stars" id="modalStars"></span>
+                        <span id="modalReviews"></span>
+                    </div>
+                    <p class="modal-description" id="modalDescription"></p>
+                    <div class="modal-variants" id="modalColors">
+                        <span class="variants-label">Cor</span>
+                        <div class="color-options" id="modalColorOptions"></div>
+                    </div>
+                    <div class="modal-variants" id="modalSizes">
+                        <span class="variants-label">Tamanho</span>
+                        <div class="size-options" id="modalSizeOptions"></div>
+                    </div>
+                    <div class="modal-variants">
+                        <span class="variants-label">Quantidade</span>
+                        <div class="qty-input">
+                            <button id="qtyMinus" aria-label="Diminuir quantidade">−</button>
+                            <input type="number" id="qtyValue" value="1" min="1" max="10" readonly>
+                            <button id="qtyPlus" aria-label="Aumentar quantidade">+</button>
+                        </div>
+                    </div>
+                    <div class="product-prices" style="margin-top: 16px; text-align: left;">
+                        <div class="product-price" style="justify-content: flex-start;">
+                            <span class="price-old" id="modalOldPrice"></span>
+                            <span class="price-current" id="modalPrice"></span>
+                        </div>
+                        <div class="product-installments" id="modalInstallments"></div>
+                    </div>
+                    <button class="btn btn-primary btn-block btn-lg btn-ripple" id="modalAddToCart" style="margin-top: 24px;">
+                        Adicionar ao Carrinho
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
